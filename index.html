@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Landing Page à 69€ - Hébergement Inclus</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(180deg, #0a0a0a, #121212);
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+      background: radial-gradient(circle at top, #0ff 0%, #08001a 100%);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #00ffff;
+      text-shadow: 0 0 10px #0ff;
+    }
+
+    header p {
+      margin-top: 1rem;
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+
+    .price-box {
+      background: #1a1a2e;
+      margin: 2rem auto;
+      padding: 2rem;
+      border-radius: 15px;
+      max-width: 600px;
+      box-shadow: 0 0 20px #00f2ff88;
+      text-align: center;
+    }
+
+    .price-box h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #00f2ff;
+    }
+
+    .price-box p {
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+
+    ul.benefits {
+      list-style: none;
+      padding: 0;
+      margin: 2rem auto;
+      max-width: 500px;
+    }
+
+    ul.benefits li {
+      margin: 1rem 0;
+      padding-left: 1rem;
+      position: relative;
+    }
+
+    ul.benefits li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #0ff;
+    }
+
+    .contact-form {
+      max-width: 600px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: #1a1a2e;
+      border-radius: 15px;
+      box-shadow: 0 0 20px #00f2ff55;
+    }
+
+    .contact-form h3 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: #00f2ff;
+    }
+
+    .contact-form label {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: #ccc;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      border: none;
+      border-radius: 8px;
+      margin-bottom: 1.2rem;
+      background: #0f0f1e;
+      color: #fff;
+      font-size: 1rem;
+    }
+
+    .contact-form button {
+      width: 100%;
+      background: #00f2ff;
+      color: #000;
+      padding: 1rem;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background 0.3s;
+      box-shadow: 0 0 10px #00f2ff;
+    }
+
+    .contact-form button:hover {
+      background: #0ff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #666;
+      background-color: #0d0d0d;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .price-box h2 {
+        font-size: 1.5rem;
+      }
+
+      .contact-form button {
+        font-size: 1rem;
+        padding: 0.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🔥 Ta Landing Page Pro pour 69€</h1>
+    <p>Design moderne, hébergement inclus, prête en 48h !</p>
+  </header>
+
+  <section class="price-box">
+    <h2>👉 Offre unique : 69€</h2>
+    <p>Tu veux vendre, présenter ou convertir ? Je te crée une landing page stylée, optimisée pour mobile & PC.</p>
+  </section>
+
+  <ul class="benefits">
+    <li>Design stylé façon Shopify</li>
+    <li>100% responsive (mobile & desktop)</li>
+    <li>Hébergement inclus</li>
+    <li>Prête en 48h</li>
+    <li>Modifiable facilement après livraison</li>
+  </ul>
+
+  <section class="contact-form">
+    <h3>📩 Contacte-moi</h3>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <label for="name">Ton prénom</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Ton email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Ton besoin (facultatif)</label>
+      <textarea id="message" name="message" rows="5"></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 - Création de landing pages - Tous droits réservés
+  </footer>
+
+</body>
+</html>
